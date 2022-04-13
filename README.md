@@ -11,8 +11,8 @@
  
  ### 使用方式(.exe)：
  1. 請下載EeclassWebCrawler/dist資料夾中的EeclassWebCrawler1.4.exe
- 2. 下載webdriver（在此使設Chrome瀏覽器）
-    1. 右上角的3小點圖示（自訂及管理）>說明>關於G
+ 2. 下載webdriver（在此使用Chrome瀏覽器）
+    1. 右上角的3小點圖示（自訂及管理）>說明>關於Google Chrome
     2. 確認瀏覽器版本
     3. 前往下載[chromedriver](https://sites.google.com/chromium.org/driver/downloads)（如果需要使用其他瀏覽器的webdriver，需改動EeclassWebCrawler1.4.py 11、12行）
     4. 請選擇與自己瀏覽器相對應的版本
