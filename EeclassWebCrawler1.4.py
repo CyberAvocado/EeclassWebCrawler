@@ -22,9 +22,9 @@ def EeclassWebCrawler():
     link = driver.find_element_by_link_text("我的首頁")#找到link_text=「我的首頁」的連結文字
     link.click()#點擊上述連結文字
     time.sleep(1)#停歇1秒
-    link = driver.find_element_by_link_text(entry.get())#找尋符合「課程欄位」欄位中資料文字連結
-    link.click()#點擊上述連結文字
-    time.sleep(1)#停歇1秒
+    link = driver.find_element_by_link_text(entry.get())
+    link.click()
+    time.sleep(1)
     link = driver.find_element_by_link_text("討論區")#找尋link_text=「討論區」的文字連結
     link.click()#點擊上述連結文字
     time.sleep(1)#停歇1秒
@@ -52,11 +52,11 @@ window = tk.Tk()
 window.title('易課2.0爬蟲程式')#tkinter視窗標題
 window.geometry("400x500+250+150")#tkinter視窗大小
 
-label = tk.Label(window, text = '請輸入課程')#欄位標籤
+label = tk.Label(window, text = '請輸入課程')
 label.pack()
 
 # 輸入欄位
-entry = tk.Entry(window,width = 20) #課程欄位
+entry = tk.Entry(window,width = 20) 
 entry.pack()
 
 
